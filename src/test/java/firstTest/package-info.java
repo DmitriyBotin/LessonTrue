@@ -1,0 +1,5 @@
+/**
+ * Первые тесты
+ */
+
+package firstTest;
