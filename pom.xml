@@ -18,6 +18,10 @@
 
         <fork.Count>1</fork.Count>
 
+        <suiteXmlFile>src\test\testng.xml</suiteXmlFile>
+
+        <spmeModule.includes>firstTest.FirstTest</spmeModule.includes>
+
     </properties>
 
 
@@ -61,6 +65,9 @@
 <!--                        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>-->
 <!--                    </suiteXmlFiles>-->
 
+                    <includes>
+                        <include>${spmeModule.includes}</include>>
+                    </includes>>
 
                     <forkCount>${fork.Count}</forkCount>
                     <reuseForks>true</reuseForks>
@@ -87,6 +94,7 @@
 
 
                 </configuration>
+
                 <dependencies>
                     <dependency>
                         <groupId>org.aspectj</groupId>

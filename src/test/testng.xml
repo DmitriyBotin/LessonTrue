@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+
+    <test name="myFile">
+        <classes>
+            <class name="firstTest.FirstTest"></class>
+        </classes>
+    </test>
+
+    <test name="Parampampam">
+
+        <parameter name="IDont" value="GG"></parameter>
+        <parameter name="iKnow" value="BG"></parameter>
+
+        <classes>
+            <class name="firstTest.SecondTest"></class>
+        </classes>
+    </test>
+
+</suite>
